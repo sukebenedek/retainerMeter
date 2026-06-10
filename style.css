@@ -1,0 +1,27 @@
+body {
+    background-color: #323232;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#needed, #date, #now{
+    color: whitesmoke;
+    font-size: 22px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+
+.purple {
+    background-color: rebeccapurple;
+}
+
+.green {
+    background-color: #8ace00;
+    color: black;
+}
