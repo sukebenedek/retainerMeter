@@ -18,7 +18,7 @@ body {
 #date,
 #now {
     color: whitesmoke;
-    font-size: clamp(18.2px, 5vw, 60px);
+    font-size: clamp(19px, 5vw, 60px);
     white-space: nowrap;
     padding: 10px;
     border-radius: 10px;
