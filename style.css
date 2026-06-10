@@ -6,11 +6,13 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    font-family: "Comic Sans MS";
 }
 
 #needed, #date, #now{
     color: whitesmoke;
-    font-size: 22px;
+    font-size: clamp(17px, 5vw, 60px);
+    white-space: nowrap;
     padding: 10px;
     border-radius: 10px;
 }
