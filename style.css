@@ -1,3 +1,8 @@
+@font-face {
+    font-family: myFont;
+    src: url(Ldfcomicsansbold-zgma.ttf);
+}
+
 body {
     background-color: #323232;
     margin: 0;
@@ -6,10 +11,12 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    font-family: "Comic Sans MS";
+    font-family: myFont;
 }
 
-#needed, #date, #now{
+#needed,
+#date,
+#now {
     color: whitesmoke;
     font-size: clamp(17px, 5vw, 60px);
     white-space: nowrap;
